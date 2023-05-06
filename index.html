@@ -1,0 +1,3775 @@
+<!DOCTYPE html>
+<html lang="en-US" class="custom-scrollbar-on">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+    <title>
+      WerkStatt Developer &#8211;Werkstatt Creative Portfolio WordPress Theme
+    </title>
+    <meta name="robots" content="max-image-preview:large" />
+    <link rel="dns-prefetch" href="//use.typekit.net" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="WerkStatt Developer &raquo; Feed"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/feed/"
+    />
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="classic-theme-styles-css"
+      href="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-includes/css/classic-themes.min.css?ver=1"
+      media="all"
+    />
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--color--thb-accent: #294cff;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+        --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+        --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+        --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+        --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+        --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+        --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+        --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+      }
+
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+
+      body .is-layout-flex {
+        display: flex;
+      }
+
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="thb-fa-css"
+      href="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/themes/werkstatt/assets/css/font-awesome.min.css?ver=4.7.0"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="thb-app-css"
+      href="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/themes/werkstatt/assets/css/app.css?ver=4.7.0"
+      media="all"
+    />
+    <style id="thb-app-inline-css" type="text/css">
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .post.style9 .post-meta,
+      .primary-font {
+        font-family: proxima-nova, 'BlinkMacSystemFont', -apple-system, 'Roboto',
+          'Lucida Sans';
+      }
+
+      h1,
+      .h1 {
+      }
+
+      h2 {
+      }
+
+      h3 {
+      }
+
+      h4 {
+      }
+
+      h5 {
+      }
+
+      h6 {
+      }
+
+      body {
+        font-family: proxima-nova, 'BlinkMacSystemFont', -apple-system, 'Roboto',
+          'Lucida Sans';
+      }
+
+      input[type='submit'],
+      .button,
+      .btn,
+      .btn-text,
+      .btn[class*='thb-'] {
+      }
+
+      #mobile-menu,
+      .header {
+      }
+
+      .header .logolink .logoimg {
+        max-height: 54px;
+      }
+
+      .header .logolink .logoimg[src$='.svg'] {
+        height: 54px;
+      }
+
+      @media only screen and (min-width: 75em) {
+        .header,
+        .midnightHeader .midnightInner {
+          padding-top: 25px;
+          padding-bottom: 25px;
+        }
+      }
+
+      @media only screen and (min-width: 64.063em) {
+        #mobile-menu.style1 {
+          width: 50%;
+        }
+      }
+
+      .thb-portfolio
+        #portfolio-284.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-284.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-284.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-284.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-284.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-284.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #5c4cfb;
+      }
+
+      .thb-portfolio
+        #portfolio-284.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #5c4cfb;
+      }
+
+      .thb-portfolio #portfolio-284.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+      }
+
+      .thb-portfolio
+        #portfolio-274.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-274.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-274.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-274.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-274.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-274.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #37f880;
+      }
+
+      .thb-portfolio
+        #portfolio-274.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #37f880;
+      }
+
+      .thb-portfolio #portfolio-274.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #37f880);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #37f880);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #37f880);
+      }
+
+      .thb-portfolio
+        #portfolio-64.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-64.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-64.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-64.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-64.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-64.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #ff5f94;
+      }
+
+      .thb-portfolio
+        #portfolio-64.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #ff5f94;
+      }
+
+      .thb-portfolio #portfolio-64.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+      }
+
+      .thb-portfolio
+        #portfolio-60.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-60.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-60.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-60.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-60.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-60.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #ffcc00;
+      }
+
+      .thb-portfolio
+        #portfolio-60.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #ffcc00;
+      }
+
+      .thb-portfolio #portfolio-60.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+      }
+
+      .thb-portfolio
+        #portfolio-62.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-62.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-62.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-62.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-62.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-62.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #c464fc;
+      }
+
+      .thb-portfolio
+        #portfolio-62.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #c464fc;
+      }
+
+      .thb-portfolio #portfolio-62.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #c464fc);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #c464fc);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #c464fc);
+      }
+
+      .thb-portfolio
+        #portfolio-57.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-57.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-57.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-57.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-57.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-57.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #37f880;
+      }
+
+      .thb-portfolio
+        #portfolio-57.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #37f880;
+      }
+
+      .thb-portfolio #portfolio-57.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #37f880);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #37f880);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #37f880);
+      }
+
+      .thb-portfolio
+        #portfolio-55.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-55.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-55.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-55.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-55.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-55.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #5c4cfb;
+      }
+
+      .thb-portfolio
+        #portfolio-55.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #5c4cfb;
+      }
+
+      .thb-portfolio #portfolio-55.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+      }
+
+      .thb-portfolio
+        #portfolio-52.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-52.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-52.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-52.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-52.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-52.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #c464fc;
+      }
+
+      .thb-portfolio
+        #portfolio-52.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #c464fc;
+      }
+
+      .thb-portfolio #portfolio-52.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #c464fc);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #c464fc);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #c464fc);
+      }
+
+      .thb-portfolio
+        #portfolio-49.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-49.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-49.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-49.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-49.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-49.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #ffcc00;
+      }
+
+      .thb-portfolio
+        #portfolio-49.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #ffcc00;
+      }
+
+      .thb-portfolio #portfolio-49.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+      }
+
+      .thb-portfolio
+        #portfolio-47.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-47.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-47.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-47.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-47.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-47.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #ff5f94;
+      }
+
+      .thb-portfolio
+        #portfolio-47.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #ff5f94;
+      }
+
+      .thb-portfolio #portfolio-47.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+      }
+
+      .thb-portfolio
+        #portfolio-45.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-45.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-45.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-45.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-45.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-45.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #5c4cfb;
+      }
+
+      .thb-portfolio
+        #portfolio-45.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #5c4cfb;
+      }
+
+      .thb-portfolio #portfolio-45.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #5c4cfb);
+      }
+
+      .thb-portfolio
+        #portfolio-43.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-43.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-43.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-43.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-43.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-43.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #37f880;
+      }
+
+      .thb-portfolio
+        #portfolio-43.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #37f880;
+      }
+
+      .thb-portfolio #portfolio-43.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #37f880);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #37f880);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #37f880);
+      }
+
+      .thb-portfolio
+        #portfolio-41.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-41.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-41.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-41.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-41.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-41.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #ff5f94;
+      }
+
+      .thb-portfolio
+        #portfolio-41.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #ff5f94;
+      }
+
+      .thb-portfolio #portfolio-41.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #ff5f94);
+      }
+
+      .thb-portfolio
+        #portfolio-39.type-portfolio.style3:hover
+        .portfolio-holder,
+      .thb-portfolio
+        #portfolio-39.type-portfolio:not(.thb-gradient-hover):not(
+          .thb-corner-hover
+        )
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-39.type-portfolio.thb-corner-hover:hover
+        .portfolio-link,
+      .thb-portfolio
+        #portfolio-39.type-portfolio.style2
+        .portfolio-holder
+        .portfolio-inner:not(.thb-image-hover),
+      .thb-portfolio
+        .portfolio-39.type-portfolio.carousel_style3.style3_even:hover
+        .portfolio-holder,
+      .thb-portfolio
+        .portfolio-39.type-portfolio.carousel_style3:hover
+        .portfolio-holder {
+        background: #ffcc00;
+      }
+
+      .thb-portfolio
+        #portfolio-39.type-portfolio.style6
+        .portfolio-holder:after {
+        border-color: #ffcc00;
+      }
+
+      .thb-portfolio #portfolio-39.type-portfolio .thb-gradient-fill {
+        background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+        background-image: linear-gradient(rgba(0, 0, 0, 0), #ffcc00);
+      }
+
+      .page-id-282 #wrapper div[role='main'] {
+        background-color: #101010 !important;
+        background-image: none !important;
+      }
+
+      .footer {
+        background-color: #294cff !important;
+        background-image: none !important;
+      }
+
+      .subfooter {
+        background-color: #294cff !important;
+        background-image: none !important;
+      }
+
+      #mobile-menu {
+        background-color: #4e59ff !important;
+        background-image: none !important;
+      }
+
+      a:hover,
+      ol li:before,
+      ol li ol li:before,
+      .thb-full-menu li.menu-item-has-children.sfHover > a,
+      .mm-link-animation-bg-fill .thb-mobile-menu a:hover,
+      .mm-link-animation-bg-fill
+        .thb-mobile-menu
+        li.current_page_item:not(.has-hash),
+      .post .post-title a:hover,
+      .authorpage .author-content .square-icon:hover,
+      ol.commentlist .comment .reply a,
+      input[type='submit'].thb-border-style.accent,
+      .button.thb-border-style.accent,
+      .btn.thb-border-style.accent,
+      input[type='submit'].thb-text-style.accent,
+      .button.thb-text-style.accent,
+      .btn.thb-text-style.accent,
+      .more-link,
+      .pagination .page-numbers.current,
+      .pagination .page-numbers:not(.dots):hover,
+      .thb-portfolio .type-portfolio.style2:hover h2,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side
+        .type-portfolio.active
+        h1,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side
+        .type-portfolio.active
+        h2,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side
+        .type-portfolio.active
+        h3,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side
+        .type-portfolio.active
+        .thb-categories,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side.light-title
+        .type-portfolio.active
+        h1,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side.light-title
+        .type-portfolio.active
+        h2,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side.light-title
+        .type-portfolio.active
+        h3,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side.light-title
+        .type-portfolio.active
+        .thb-categories,
+      .thb-autotype .thb-autotype-entry,
+      .post_nav_link:hover span,
+      .thb-breadcrumb-holder a:hover,
+      .thb-counter,
+      .thb-counter h6,
+      .thb-portfolio-filter.style2 ul li a.active,
+      .thb-portfolio-filter.style2 ul li a:hover,
+      .thb-portfolio-filter.style3 ul li a.active,
+      .thb-portfolio-filter.style3 ul li a:hover,
+      .white-header .thb-full-menu > li.current-menu-item:not(.has-hash) > a,
+      .light-title
+        .header:not(.hover):not(:hover)
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .disable_header_fill-on.light-title
+        .header
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .thb-full-menu li.current-menu-item:not(.has-hash) > a,
+      #wrapper ol li:before,
+      #wrapper ol li ol li:before,
+      header.style3.dark
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .btn.thb-fill-style.accent,
+      .white-header .thb-full-menu > li.current-menu-item:not(.has-hash) > a,
+      .header.style3.dark
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .light-title:not(.midnight_on)
+        .header:not(.hover):not(:hover):not(.style3)
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .disable_header_fill-on.light-title:not(.midnight_on)
+        .header:not(.style3)
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .midnightHeader.light-title
+        .thb-full-menu
+        > li.current-menu-item:not(.has-hash)
+        > a,
+      .has-thb-accent-color,
+      .wp-block-button .wp-block-button__link.has-thb-accent-color,
+      input[type='submit'].thb-border-line-style.accent,
+      .button.thb-border-line-style.accent,
+      .btn.thb-border-line-style.accent {
+        color: #294cff;
+      }
+
+      .post.style5 .blog-content:after,
+      .post.style6 .post-gallery,
+      .post.style7 .blog-content:after,
+      input[type='submit']:hover,
+      .button:not(.thb-text-style):not(.thb-border-style):not(
+          .thb-fill-style
+        ):not(.thb-solid-border):hover,
+      .btn:not(.thb-text-style):not(.thb-border-style):not(.thb-fill-style):not(
+          .thb-solid-border
+        ):not(.thb-border-line-style):hover,
+      .button.wc-forward,
+      .place-order .button,
+      input[type='submit'].accent,
+      .button.accent:not(.thb-text-style):not(.thb-border-style):not(
+          .thb-fill-style
+        ),
+      .btn.accent:not(.thb-text-style):not(.thb-border-style):not(
+          .thb-fill-style
+        ):not(.thb-solid-border):not(.thb-border-line-style),
+      input[type='submit'].thb-3d-style.accent span,
+      .button.thb-3d-style.accent span,
+      .btn.thb-3d-style.accent span,
+      input[type='submit'].thb-border-style.accent:hover,
+      .button.thb-border-style.accent:hover,
+      .btn.thb-border-style.accent:hover,
+      input[type='submit'].thb-fill-style.accent:before,
+      .button.thb-fill-style.accent:before,
+      .btn.thb-fill-style.accent:before,
+      input[type='submit'].thb-text-style.accent:before,
+      input[type='submit'].thb-text-style.accent:after,
+      input[type='submit'].thb-text-style.accent span:before,
+      input[type='submit'].thb-text-style.accent span:after,
+      .button.thb-text-style.accent:before,
+      .button.thb-text-style.accent:after,
+      .button.thb-text-style.accent span:before,
+      .button.thb-text-style.accent span:after,
+      .btn.thb-text-style.accent:before,
+      .btn.thb-text-style.accent:after,
+      .btn.thb-text-style.accent span:before,
+      .btn.thb-text-style.accent span:after,
+      .pagination .page-numbers.prev:before,
+      .pagination .page-numbers.next:after,
+      .thb_row_pagination li:hover,
+      .thb_row_pagination li.active,
+      .thb_row_pagination li:hover span,
+      .thb_row_pagination li.active span,
+      .swiper-container .swiper-nav.arrow-style1:hover span,
+      .slick-nav:hover span,
+      .slick-dots li.slick-active,
+      .thb-iconbox.type2:hover,
+      .thb_call_to_action,
+      #music_toggle:hover,
+      #music_toggle.on,
+      .woocommerce-MyAccount-navigation ul li:hover a,
+      .woocommerce-MyAccount-navigation ul li.is-active a,
+      .btn.thb-solid-border.accent:hover,
+      .thb-image-slider.thb-image-slider-style4 figcaption,
+      .swiper-nav.style1:hover span,
+      .thb-portfolio-filter.style3 ul li a.active:before,
+      .thb-portfolio-filter.style3 ul li a:hover:before,
+      .thb-client-row.thb-opacity.with-accent .thb-client:hover,
+      .swiper-container
+        .light-pagination
+        + .swiper-nav
+        + .swiper-nav.arrow-style1:hover
+        span,
+      .btn-text.style3 .circle-btn,
+      .thb-page-header .thb-blog-categories li a:after,
+      .has-thb-accent-background-color,
+      .wp-block-button .wp-block-button__link.has-thb-accent-background-color,
+      input[type='submit'].thb-border-line-style.accent:after,
+      .button.thb-border-line-style.accent:after,
+      .btn.thb-border-line-style.accent:after {
+        background-color: #294cff;
+      }
+
+      .btn.thb-fill-style.accent:after {
+        background-color: #2544e6;
+      }
+
+      .post.style11:hover {
+        background-color: rgba(41, 76, 255, 0.2);
+      }
+
+      .thb-team-row .thb-team-member .team-information {
+        background-color: rgba(41, 76, 255, 0.9);
+      }
+
+      ol li:before,
+      ol li ol li:before,
+      input[type='text']:focus,
+      input[type='password']:focus,
+      input[type='date']:focus,
+      input[type='datetime']:focus,
+      input[type='email']:focus,
+      input[type='number']:focus,
+      input[type='search']:focus,
+      input[type='tel']:focus,
+      input[type='time']:focus,
+      input[type='url']:focus,
+      textarea:focus,
+      input[type='submit'].thb-border-style.accent,
+      .button.thb-border-style.accent,
+      .btn.thb-border-style.accent,
+      input[type='submit'].thb-fill-style.accent,
+      .button.thb-fill-style.accent,
+      input[type='submit'].thb-text-style.accent span,
+      .button.thb-text-style.accent span,
+      .btn.thb-text-style.accent span,
+      .thb-portfolio .type-portfolio.thb-border-hover .portfolio-link:before,
+      .swiper-container .swiper-nav.arrow-style1:hover span,
+      .slick-nav:hover span,
+      .thb-team-row .thb-team-member.thb-add-new > a:hover,
+      .thb-iconbox.type2:hover,
+      .woocommerce-MyAccount-navigation ul li:hover a,
+      .woocommerce-MyAccount-navigation ul li.is-active a,
+      .btn.thb-solid-border.accent:hover,
+      .swiper-nav.style1:hover span,
+      .light-arrow .slick-nav:hover span,
+      .post.style1.style8:hover,
+      .thb-portfolio .type-portfolio.style6 .portfolio-holder:after,
+      #wrapper ol li:before,
+      #wrapper ol li ol li:before,
+      .btn.thb-fill-style.accent,
+      input[type='submit'].thb-border-line-style.accent,
+      .button.thb-border-line-style.accent,
+      .btn.thb-border-line-style.accent {
+        border-color: #294cff;
+      }
+
+      .thb-image-slider.thb-image-slider-style4 figcaption:after {
+        border-top-color: #294cff;
+      }
+
+      .thb-iconbox.type3:after {
+        box-shadow: inset 0 -75px 60px -35px #294cff;
+      }
+
+      .woocommerce-MyAccount-navigation ul li:hover + li a,
+      .woocommerce-MyAccount-navigation ul li.is-active + li a {
+        border-top-color: #294cff;
+      }
+
+      .thb-preloader .thb-preloader-icon-hexagon .preloader-path,
+      .thb-preloader .thb-preloader-icon-circle .path,
+      .thb-team-row .thb-team-member.thb-add-new > a:hover svg path,
+      .thb-iconbox.type3 svg path,
+      .thb-iconbox.type3 svg circle,
+      .thb-iconbox.type3 svg rect,
+      .thb-iconbox.type3 svg ellipse,
+      .thb-counter figure svg path,
+      .thb-counter figure svg circle,
+      .thb-counter figure svg rect,
+      .thb-counter figure svg ellipse {
+        stroke: #294cff;
+      }
+
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side
+        .type-portfolio.active
+        .next
+        svg,
+      .thb-list-portfolio:not(.thb-bg-grid-full)
+        .thb-content-side.light-title
+        .type-portfolio.active
+        .next
+        svg,
+      .btn-text.style4 .arrow svg:first-child {
+        fill: #294cff;
+      }
+
+      .thb-show-all .items ul li:hover figure {
+        box-shadow: 0 0 0 3px #294cff inset;
+      }
+
+      .footer .widget a {
+        color: #ffffff !important;
+      }
+
+      .footer .widget a:hover {
+        color: #ffffff !important;
+      }
+
+      .footer.dark .widget a {
+        color: #ffffff !important;
+      }
+
+      .footer.dark .widget a:hover {
+        color: #ffffff !important;
+      }
+
+      #footer {
+        padding-top: 150px;
+        padding-bottom: 150px;
+      }
+
+      .thb-mobile-menu .nav-link-mask-text {
+        color: #fff;
+      }
+
+      .footer .widget {
+        margin: 0;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="js_composer_front-css"
+      href="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.4.1"
+      media="all"
+    />
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-includes/js/jquery/jquery.min.js?ver=3.6.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+      id="jquery-migrate-js"
+    ></script>
+    <script
+      src="https://use.typekit.net/ijc7pie.js?ver=4.7.0"
+      id="thb-typekit-js"
+    ></script>
+    <script id="thb-typekit-js-after">
+      try {
+        Typekit.load({
+          async: true,
+        });
+      } catch (e) {}
+    </script>
+    <link
+      rel="https://api.w.org/"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/wp-json/"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/wp-json/wp/v2/pages/282"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/wp-includes/wlwmanifest.xml"
+    />
+    <link
+      rel="canonical"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/"
+    />
+    <link
+      rel="shortlink"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/"
+    />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwerkstatt.fuelthemes.net%2Fwerkstatt-developer%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="https://werkstatt.fuelthemes.net/werkstatt-developer/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwerkstatt.fuelthemes.net%2Fwerkstatt-developer%2F&#038;format=xml"
+    />
+    <meta
+      name="generator"
+      content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."
+    />
+    <style type="text/css">
+      body.custom-background #wrapper div[role='main'] {
+        background-color: #ffffff;
+      }
+    </style>
+    <style type="text/css" data-type="vc_custom-css">
+      @media screen and (min-width: 90.063em) {
+        .page h1 {
+          font-size: 80px;
+          line-height: 1.2;
+        }
+      }
+
+      .page h1 span {
+        display: inline-block;
+      }
+
+      .columns.thb-light-column h1 strike {
+        color: #848484;
+      }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+      .vc_custom_1488305001409 {
+        padding-top: 10vh !important;
+        padding-bottom: 10vh !important;
+      }
+
+      .vc_custom_1486574497318 {
+        padding-top: 15vh !important;
+        padding-bottom: 15vh !important;
+      }
+
+      .vc_custom_1486574514904 {
+        padding-top: 10vh !important;
+        padding-bottom: 10vh !important;
+      }
+
+      .vc_custom_1486574521346 {
+        padding-top: 10vh !important;
+        padding-bottom: 10vh !important;
+      }
+
+      .vc_custom_1486574526473 {
+        padding-top: 10vh !important;
+        padding-bottom: 10vh !important;
+      }
+    </style>
+    <noscript>
+      <style>
+        .wpb_animate_when_almost_visible {
+          opacity: 1;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body
+    data-rsssl="1"
+    class="home page-template-default page page-id-282 midnight_off header-lateral-off thb-snap-rows-off thb-dropdown-color-dark scroll-spy-off thb-nav-menu-widget-columns-1 thb-header-fixed-on thb-header-fill-off thb_row_pagination_off lightbox-theme-dark right-click-on row_pagination_position- light-title disable_header_fill-on disable-row-offset- mm-link-animation-link-fill footer-shadow-light thb-borders-off overflow-off portfolio_title_animation-on product_style1_color-dark thb-single-product-ajax-on wpb-js-composer js-comp-ver-6.4.1 vc_responsive"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-dark-grayscale">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 0.498039215686" />
+            <feFuncG type="table" tableValues="0 0.498039215686" />
+            <feFuncB type="table" tableValues="0 0.498039215686" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-grayscale">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 1" />
+            <feFuncG type="table" tableValues="0 1" />
+            <feFuncB type="table" tableValues="0 1" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-purple-yellow">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
+            <feFuncG type="table" tableValues="0 1" />
+            <feFuncB type="table" tableValues="0.717647058824 0.254901960784" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-blue-red">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 1" />
+            <feFuncG type="table" tableValues="0 0.278431372549" />
+            <feFuncB type="table" tableValues="0.592156862745 0.278431372549" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-midnight">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0 0" />
+            <feFuncG type="table" tableValues="0 0.647058823529" />
+            <feFuncB type="table" tableValues="0 1" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-magenta-yellow">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.780392156863 1" />
+            <feFuncG type="table" tableValues="0 0.949019607843" />
+            <feFuncB type="table" tableValues="0.352941176471 0.470588235294" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-purple-green">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
+            <feFuncG type="table" tableValues="0 1" />
+            <feFuncB type="table" tableValues="0.447058823529 0.4" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-blue-orange">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR type="table" tableValues="0.0980392156863 1" />
+            <feFuncG type="table" tableValues="0 0.662745098039" />
+            <feFuncB type="table" tableValues="0.847058823529 0.419607843137" />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <div id="wrapper" class="thb-page-transition-on">
+      <!-- Start Content Click Capture -->
+      <div class="click-capture"></div>
+      <!-- End Content Click Capture -->
+      <!-- Start Mobile Menu -->
+      <nav
+        id="mobile-menu"
+        class="dark style2"
+        data-behaviour="thb-default"
+        data-animation="style1"
+      >
+        <a href="#" class="thb-close" title="Close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            enable-background="new 0 0 64 64"
+          >
+            <g
+              fill="none"
+              stroke="#000"
+              stroke-width="2"
+              stroke-miterlimit="10"
+            >
+              <path d="m18.947 17.15l26.1 25.903" />
+              <path d="m19.05 43.15l25.902-26.1" />
+            </g>
+          </svg>
+        </a>
+        <div class="custom_scroll" id="menu-scroll">
+          <div>
+            <div class="mobile-menu-container">
+              <div class="mobile-menu-top">
+                <ul id="menu-navigation" class="thb-mobile-menu">
+                  <li
+                    id="menu-item-368"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-368 has-hash"
+                  >
+                    <div class="link_container">
+                      <div class="link_inner">
+                        <a
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/#works"
+                          data-content="Works"
+                          data-menubg=""
+                        >
+                          <span class="nav-link-mask">
+                            <span class="nav-link-mask-text">Works</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    id="menu-item-370"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-370 has-hash"
+                  >
+                    <div class="link_container">
+                      <div class="link_inner">
+                        <a
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/#awards"
+                          data-content="Awards"
+                          data-menubg=""
+                        >
+                          <span class="nav-link-mask">
+                            <span class="nav-link-mask-text">Awards</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    id="menu-item-369"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-369 has-hash"
+                  >
+                    <div class="link_container">
+                      <div class="link_inner">
+                        <a
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/#experience"
+                          data-content="Experience"
+                          data-menubg=""
+                        >
+                          <span class="nav-link-mask">
+                            <span class="nav-link-mask-text">Experience</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    id="menu-item-371"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-371 has-hash"
+                  >
+                    <div class="link_container">
+                      <div class="link_inner">
+                        <a
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/#clients"
+                          data-content="Clients"
+                          data-menubg=""
+                        >
+                          <span class="nav-link-mask">
+                            <span class="nav-link-mask-text">Clients</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    id="menu-item-372"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-372 has-hash"
+                  >
+                    <div class="link_container">
+                      <div class="link_inner">
+                        <a
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/#footer"
+                          data-content="Contact"
+                          data-menubg=""
+                        >
+                          <span class="nav-link-mask">
+                            <span class="nav-link-mask-text">Contact</span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu-bottom">
+          <ul id="menu-secondary" class="thb-secondary-menu row">
+            <li
+              id="menu-item-32"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32 column"
+            >
+              <a target="_blank" href="https://www.facebook.com/FuelThemes/"
+                >Facebook</a
+              >
+            </li>
+            <li
+              id="menu-item-33"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33 column"
+            >
+              <a target="_blank" href="#">Twitter</a>
+            </li>
+            <li
+              id="menu-item-34"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34 column"
+            >
+              <a target="_blank" href="https://dribbble.com/aykutyilmaz"
+                >Dribbble</a
+              >
+            </li>
+            <li
+              id="menu-item-35"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 column"
+            >
+              <a target="_blank" href="#">Instagram</a>
+            </li>
+            <li
+              id="menu-item-36"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36 column"
+            >
+              <a target="_blank" href="#">Pinterest</a>
+            </li>
+            <li
+              id="menu-item-37"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 column"
+            >
+              <a target="_blank" href="#">Linkedin</a>
+            </li>
+            <li
+              id="menu-item-38"
+              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38 column"
+            >
+              <a target="_blank" href="https://www.behance.net/aykutyilmaz"
+                >Behance</a
+              >
+            </li>
+          </ul>
+          <div class="menu-footer">
+            <div>
+              <p>
+                © 2016 Werkstatt. All rights reserved. <br />Made by Fuelthemes
+              </p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Mobile Menu -->
+      <!-- Start Header -->
+      <header class="header style1 menu_style2">
+        <div class="row align-middle expanded">
+          <div class="small-12 columns regular-header">
+            <div class="logo-holder">
+              <a href="#" class="logolink" title="WerkStatt Developer">
+                <img
+                  src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/08/developer_logo_black-1.png"
+                  class="logoimg logo-dark"
+                  alt="WerkStatt Developer"
+                />
+                <img
+                  src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/08/developer_logo.png"
+                  class="logoimg logo-light"
+                  alt="WerkStatt Developer"
+                />
+              </a>
+            </div>
+            <div>
+              <!-- Start Full Menu -->
+              <nav class="full-menu" id="full-menu">
+                <ul id="menu-navigation-1" class="thb-full-menu">
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-368 has-hash"
+                  >
+                    <a href="#works">Works</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-370 has-hash"
+                  >
+                    <a href="#awards">Awards</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-369 has-hash"
+                  >
+                    <a href="#experience">Experience</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-371 has-hash"
+                  >
+                    <a href="#clients">Clients</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-282 current_page_item menu-item-372 has-hash"
+                  >
+                    <a href="#footer">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- End Full Menu -->
+              <a class="mobile-toggle style1">
+                <div>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Header -->
+      <div role="main">
+        <div class="page-padding post-282 page type-page status-publish hentry">
+          <div
+            id="hello"
+            data-vc-parallax="1.5"
+            data-midnight="dark-title"
+            class="row wpb_row row-fluid vc_custom_1488305001409 row-has-fill vc_general vc_parallax vc_parallax-content-moving"
+          >
+            <div class="wpb_column columns medium-3 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="wpb_text_column wpb_content_element">
+                    <div class="wpb_wrapper">
+                      <p>Hello Everyone</p>
+                    </div>
+                  </div>
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9ea99180"
+                    style="height: 30px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wpb_column columns medium-9 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="wpb_text_column wpb_content_element">
+                    <div class="wpb_wrapper">
+                      <h1>
+                        <strong>
+                          There is Napoleon; who, upon the top of the column
+                          of <span
+                            style="
+                              text-decoration: line-through;
+                              color: #848484;
+                            "
+                            >vendome</span
+                          >
+                          ,
+                          <span
+                            style="
+                              text-decoration: line-through;
+                              color: #848484;
+                            "
+                            >stands with</span
+                          >
+                          arms <span
+                            style="
+                              text-decoration: line-through;
+                              color: #848484;
+                            "
+                            >folded</span
+                          >
+                          some one hundred and fifty feet in the air.
+                        </strong>
+                      </h1>
+                      <p>
+                        <span style="color: #cccccc"
+                          >When the entire ship &#8217;s company were assembled,
+                          and with curious and not wholly unapprehensive faces,
+                          were eyeing him, for he looked not unlike the weather
+                          horizon when a storm is coming up.</span
+                        >
+                      </p>
+                      <p>
+                        <span style="color: #ffffff">
+                          <a
+                            class="behance"
+                            style="color: #ffffff"
+                            href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                            >Behance</a
+                          >
+                          —
+                          <a
+                            class="twitter"
+                            style="color: #ffffff"
+                            href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                            >Twitter</a
+                          >
+                          —
+                          <a
+                            class="fivehundred"
+                            style="color: #ffffff"
+                            href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                            target="_blank"
+                            >500px</a
+                          >
+                          —
+                          <a
+                            class="linkedin"
+                            style="color: #ffffff"
+                            href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                            target="_blank"
+                            >linkedin</a
+                          >
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="works"
+            data-midnight="dark-title"
+            class="row wpb_row row-fluid vc_custom_1486574497318"
+          >
+            <div class="wpb_column columns medium-3 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="wpb_text_column wpb_content_element">
+                    <div class="wpb_wrapper">
+                      <p>Selected Projects</p>
+                    </div>
+                  </div>
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9ea99885"
+                    style="height: 30px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wpb_column columns medium-9 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <nav class="thb-portfolio-filter style3" id="thb-filter-940">
+                    <strong>
+                      <ul>
+                        <li>
+                          <a
+                            href="#"
+                            data-filter="*"
+                            class="active"
+                            data-count="14"
+                            >All</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            data-filter=".thb-cat-animation"
+                            data-count="2"
+                            >Animation</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            data-filter=".thb-cat-illustration"
+                            data-count="4"
+                            >Illustration</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            data-filter=".thb-cat-inspiration"
+                            data-count="2"
+                            >Inspiration</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            data-filter=".thb-cat-website"
+                            data-count="1"
+                            >Website</a
+                          >
+                        </li>
+                      </ul>
+                    </strong>
+                  </nav>
+                  <div
+                    class="row expanded thb-portfolio masonry thb-portfolio-text"
+                    id="portfolio-section-940"
+                    data-filter="thb-filter-940"
+                    data-layoutmode="packery"
+                    data-thb-animation="thb-fade"
+                    data-preload="nobg"
+                  >
+                    <div
+                      class="thb-cat-illustration style6 small-12 columns post-284 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-illustration"
+                      id="portfolio-284"
+                      data-id="284"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/taiga-taxi/"
+                          >Dark Matter</a
+                        >
+                        <div class="style6-box" data-id="284">
+                          <img
+                            width="570"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_9-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            sizes="(max-width: 570px) 100vw, 570px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_9-570x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_9-570x480.jpg 570w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_9-20x18.jpg 20w"
+                          />
+                          <p>
+                            Parish so enable innate in formed missed. Hand two
+                            was eat busy fail. Stand smart grave would in so. Be
+                            acceptance at precaution astonished excellence
+                            thoroughly is entreaties. Who decisively attachment
+                            has dispatched.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Persona
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2015-10-08
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Website Design, UX
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-animation style6 small-12 columns post-274 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-animation"
+                      id="portfolio-274"
+                      data-id="274"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/the-faculty-magazine/"
+                          >China Town</a
+                        >
+                        <div class="style6-box" data-id="274">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_76-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_76-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_76-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_76-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_76-20x15.jpg 20w"
+                          />
+                          <p>
+                            Faculty is an online magazine that highlights
+                            diversity in the study of the natural world. Through
+                            in-depth interviews, image stories, and curated
+                            content, Faculty focuses on the personal stories of
+                            people who explore and express nature in interesting
+                            and unusual ways.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Faculty
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://www.boun.edu.tr/"
+                                title="
+															 Faculty			"
+                                target="_blank"
+                                >boun.edu.tr</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Design, Art Direction, Website
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-print style6 small-12 columns post-64 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-print"
+                      id="portfolio-64"
+                      data-id="64"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/broacay-planet/"
+                          >Savvy Pallet Edition</a
+                        >
+                        <div class="style6-box" data-id="64">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/14-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/14-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/14-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/14-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/14-20x15.jpg 20w"
+                          />
+                          <p>
+                            Blind would equal while oh mr do style. Lain led and
+                            fact none. One preferred sportsmen resolving the
+                            happiness continued. High at of in loud rich true.
+                            Oh conveying do immediate acuteness in he. Equally
+                            welcome her set nothing has gravity whether parties.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Lincoln Motor Company
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Interactive Design
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-illustration style6 small-12 columns post-60 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-illustration"
+                      id="portfolio-60"
+                      data-id="60"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/paloma-rincon/"
+                          >Visionnaire</a
+                        >
+                        <div class="style6-box" data-id="60">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_84-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_84-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_84-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_84-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_84-20x15.jpg 20w"
+                          />
+                          <p>
+                            Oh, grassy glades! oh, ever vernal endless
+                            landscapes in the soul; in ye,—though long parched
+                            by the dead drought of the earthy life,—in ye, men
+                            yet may roll, like young horses in new morning
+                            clover; and for some few fleeting moments, feel the
+                            cool dew of the life immortal on them.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Heart of the Arctic
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://foryourconsideration.ca/rcm"
+                                title="
+															 Heart of the Arctic			"
+                                target="_blank"
+                                >foryourconsideration.ca</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2015-06-10
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Creative, Ideation, Design, Development
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-print style6 small-12 columns post-62 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-print"
+                      id="portfolio-62"
+                      data-id="62"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/five-dime/"
+                          >La Pierre</a
+                        >
+                        <div class="style6-box" data-id="62">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_83-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_83-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_83-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_83-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_83-20x15.jpg 20w"
+                          />
+                          <p>
+                            Oh, grassy glades! oh, ever vernal endless
+                            landscapes in the soul; in ye,—though long parched
+                            by the dead drought of the earthy life,—in ye, men
+                            yet may roll, like young horses in new morning
+                            clover; and for some few fleeting moments, feel the
+                            cool dew of the life immortal on them.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              CA Studios
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://www.universalstudioshollywood.com"
+                                title="
+															 CA Studios			"
+                                target="_blank"
+                                >universalstudioshollywood.com</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2015-12-31
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-motion style6 small-12 columns post-57 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-motion"
+                      id="portfolio-57"
+                      data-id="57"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/soul-plasticity/"
+                          >Possession</a
+                        >
+                        <div class="style6-box" data-id="57">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_74-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_74-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_74-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_74-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_74-20x15.jpg 20w"
+                          />
+                          <p>
+                            Whale was seized and sold, and his Grace the Duke of
+                            Wellington received the money. Thinking that viewed
+                            in some particular lights, the case might by a bare
+                            possibility in some small degree be deemed, under
+                            the circumstances, a rather hard one.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              20th Century Fox
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://www.independencedaymystreet.com"
+                                title="
+															 20th Century Fox			"
+                                target="_blank"
+                                >independencedaymystreet.com</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Animation &amp;Post Production
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-mobile-app style6 small-12 columns post-55 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-mobile-app"
+                      id="portfolio-55"
+                      data-id="55"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/recipes/"
+                          >Your Tour</a
+                        >
+                        <div class="style6-box" data-id="55">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_91-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_91-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_91-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_91-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_91-20x15.jpg 20w"
+                          />
+                          <p>
+                            The object of the ceremony was clear to me; in
+                            another moment Dejah Thoris would be joined forever
+                            to the Prince of Zodanga. It was an impressive and
+                            beautiful ceremony, I presume, but to me it seemed
+                            the most fiendish sight I had ever witnessed, and as
+                            the ornaments were adjusted upon her beautiful
+                            figure and her collar of gold swung open in the
+                            hands of Than Kosis.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              NY Times
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2016-02-01
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Design, Art Direction, Website
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-animation style6 small-12 columns post-52 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-animation"
+                      id="portfolio-52"
+                      data-id="52"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/wrist-watch/"
+                          >La Cinémathèque</a
+                        >
+                        <div class="style6-box" data-id="52">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_82-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_82-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_82-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_82-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_82-20x15.jpg 20w"
+                          />
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              BBC Radio
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2016-01-10
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Web Design
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-inspiration style6 small-12 columns post-49 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-inspiration"
+                      id="portfolio-49"
+                      data-id="49"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/coffeehood/"
+                          >Les Arts Turcs</a
+                        >
+                        <div class="style6-box" data-id="49">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_45-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_45-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_45-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_45-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_45-20x15.jpg 20w"
+                          />
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Hudson &amp;Sons
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2016-09-03
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Printing Branding
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-inspiration style6 small-12 columns post-47 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-inspiration"
+                      id="portfolio-47"
+                      data-id="47"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/forpackad/"
+                          >Francofolies</a
+                        >
+                        <div class="style6-box" data-id="47">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_41-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_41-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_41-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_41-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_41-20x15.jpg 20w"
+                          />
+                          <p>
+                            Whale was seized and sold, and his Grace the Duke of
+                            Wellington received the money. Thinking that viewed
+                            in some particular lights, the case might by a bare
+                            possibility in some small degree.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Dorte Mandrup Architects
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://www.dortemandrup.dk/"
+                                title="
+															 Dorte Mandrup Architects			"
+                                target="_blank"
+                                >dortemandrup.dk</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Design, Art Direction, User Experience, Animation
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-illustration style6 small-12 columns post-45 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-illustration"
+                      id="portfolio-45"
+                      data-id="45"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/the-deer-hunter/"
+                          >Lecture de formes</a
+                        >
+                        <div class="style6-box" data-id="45">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_33-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_33-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_33-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_33-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_33-20x15.jpg 20w"
+                          />
+                          <p>
+                            How promotion excellent curiosity yet attempted
+                            happiness. Gay prosperous impression had conviction.
+                            For every delay death ask style. Me mean able my by
+                            in they.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Persona
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2015-10-08
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Website Design, UX
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-mobile-app style6 small-12 columns post-43 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-mobile-app"
+                      id="portfolio-43"
+                      data-id="43"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/authentic-weather/"
+                          >Else Mirage EP</a
+                        >
+                        <div class="style6-box" data-id="43">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_16-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_16-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_16-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_16-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_16-20x15.jpg 20w"
+                          />
+                          <p>
+                            Whale was seized and sold, and his Grace the Duke of
+                            Wellington received the money. Thinking that viewed
+                            in some particular lights, the case might by a bare
+                            possibility in some small degree.
+                          </p>
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Dorte Mandrup
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2016-04-07
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Design, Art Direction, Website
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-illustration style6 small-12 columns post-41 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-illustration"
+                      id="portfolio-41"
+                      data-id="41"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/nyt-well/"
+                          >Black Noise</a
+                        >
+                        <div class="style6-box" data-id="41">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_73-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_73-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_73-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_73-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_73-20x15.jpg 20w"
+                          />
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              NY Times
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://www.nytimes.com/section/well"
+                                title="
+															 NY Times			"
+                                target="_blank"
+                                >nytimes.com</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2016-04-06
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Design, Art Direction, Website
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div
+                      class="thb-cat-website style6 small-12 columns post-39 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio-category-website"
+                      id="portfolio-39"
+                      data-id="39"
+                    >
+                      <h2>
+                        <a
+                          class="portfolio-holder"
+                          href="https://werkstatt.fuelthemes.net/werkstatt-developer/portfolio/mindsparkle-shop/"
+                          >Shapes Gradient</a
+                        >
+                        <div class="style6-box" data-id="39">
+                          <img
+                            width="640"
+                            height="480"
+                            src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_68-20x15.jpg"
+                            class="attachment-werkstatt-rectangle-2x size-werkstatt-rectangle-2x thb-lazyload lazyload wp-post-image"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 640px) 100vw, 640px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_68-640x480.jpg"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_68-640x480.jpg 640w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_68-320x240.jpg 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/w_68-20x15.jpg 20w"
+                          />
+                          <div class="portfolio-attributes">
+                            <div class="attribute">
+                              <strong>Client:</strong>
+                              Mindsparkle Shop
+                            </div>
+                            <div class="attribute">
+                              <strong>Website:</strong>
+                              <a
+                                href="http://mindsparkleshop.com/"
+                                title="
+															 Mindsparkle Shop			"
+                                target="_blank"
+                                >mindsparkleshop.com</a
+                              >
+                            </div>
+                            <div class="attribute">
+                              <strong>Date:</strong>
+                              2016-09-01
+                            </div>
+                            <div class="attribute">
+                              <strong>Services:</strong>
+                              Website Design, UX
+                            </div>
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+                    <div class="thb-preloader">
+                      <svg
+                        class="thb-preloader-icon-hexagon"
+                        width="51"
+                        height="55"
+                        viewBox="0 0 34 38"
+                      >
+                        <path
+                          class="preloader-path"
+                          stroke="#ef173b"
+                          stroke-dasharray="70 32"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                          stroke-dashoffset="0"
+                          d="M29.437 8.114L19.35 2.132c-1.473-.86-3.207-.86-4.68 0L4.153 8.114C2.68 8.974 1.5 10.56 1.5 12.28v11.964c0 1.718 1.22 3.306 2.69 4.165l10.404 5.98c1.47.86 3.362.86 4.834 0l9.97-5.98c1.472-.86 2.102-2.45 2.102-4.168V12.28c0-1.72-.59-3.306-2.063-4.166z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="awards"
+            data-midnight="dark-title"
+            class="row wpb_row row-fluid vc_custom_1486574514904"
+          >
+            <div class="wpb_column columns medium-3 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9eaa97bc"
+                    style="height: 25px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                  <div class="wpb_text_column wpb_content_element">
+                    <div class="wpb_wrapper">
+                      <p>Awards</p>
+                    </div>
+                  </div>
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9eaa98af"
+                    style="height: 30px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wpb_column columns medium-9 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div id="thb-awards-57" class="thb-awards-parent">
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date">2017</span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">Semplice</div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Best Showcase for <strong>NYT Wellness</strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">Awwwards</div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Site Of The Day for
+                              <a href="#">
+                                <strong>Authentic Weather</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">Fwa</div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Site Of The Day for
+                              <a href="#">
+                                <strong>Förpackad</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">
+                              Mindsparklemag
+                            </div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Peoples choice in Mobile for
+                              <a href="#">
+                                <strong>Wrist Watch</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">Shift</div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Bronze in Digital Craft for
+                              <a href="#">
+                                <strong>Five &Dime</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="thb-awards-63" class="thb-awards-parent">
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date">2016</span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">
+                              Css Design Awards
+                            </div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Honorable Mention for
+                              <a href="#">
+                                <strong>Nike</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">Awwwards</div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Site Of The Day for
+                              <a href="#">
+                                <strong>Starbucks</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="thb-awards-41" class="thb-awards-parent">
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date">2015</span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">
+                              Webby Awards
+                            </div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Best Animation for
+                              <a href="#">
+                                <strong>Suisse Mania</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">Fwa</div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Corporate Social Responsibility for
+                              <a href="#">
+                                <strong>Post It Forward</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thb-awards row">
+                      <div class="small-12 large-3 columns">
+                        <span class="award-date"></span>
+                      </div>
+                      <div class="columns">
+                        <div class="award-container">
+                          <div class="row">
+                            <div class="small-6 large-5 columns">
+                              Css Awards
+                            </div>
+                            <div
+                              class="small-6 large-7 columns small-text-left medium-text-right thb-award-description"
+                            >
+                              Corporate Social Responsibility for
+                              <a href="#">
+                                <strong>Post It Forward</strong>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="experience"
+            data-midnight="dark-title"
+            class="row wpb_row row-fluid vc_custom_1486574521346"
+          >
+            <div class="wpb_column columns medium-3 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9eaaa081"
+                    style="height: 25px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                  <div class="wpb_text_column wpb_content_element">
+                    <div class="wpb_wrapper">
+                      <p>Experience</p>
+                    </div>
+                  </div>
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9eaaa156"
+                    style="height: 30px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wpb_column columns medium-9 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="thb-experience">
+                    <div class="row">
+                      <div class="small-12 large-3 columns">
+                        <span class="experience-date">dec 2015 - today</span>
+                      </div>
+                      <div class="columns">
+                        <div class="row">
+                          <div
+                            class="small-6 large-5 columns thb-experience-position"
+                          >
+                            Creative Director at
+                            <a href="#">
+                              <strong>Oglivy Mather</strong>
+                            </a>
+                          </div>
+                          <div
+                            class="small-6 large-7 columns small-text-left medium-text-right thb-experience-description"
+                          >
+                            Istanbul, Turkey
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thb-experience">
+                    <div class="row">
+                      <div class="small-12 large-3 columns">
+                        <span class="experience-date">apr 2014 - dec 2015</span>
+                      </div>
+                      <div class="columns">
+                        <div class="row">
+                          <div
+                            class="small-6 large-5 columns thb-experience-position"
+                          >
+                            Art Director at
+                            <a href="#">
+                              <strong>Tribal DDB Amsterdam</strong>
+                            </a>
+                          </div>
+                          <div
+                            class="small-6 large-7 columns small-text-left medium-text-right thb-experience-description"
+                          >
+                            Amsterdam, Netherlands
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thb-experience">
+                    <div class="row">
+                      <div class="small-12 large-3 columns">
+                        <span class="experience-date">jan 2013 - apr 2014</span>
+                      </div>
+                      <div class="columns">
+                        <div class="row">
+                          <div
+                            class="small-6 large-5 columns thb-experience-position"
+                          >
+                            Senior Designer at
+                            <a href="#">
+                              <strong>Publicis Modem</strong>
+                            </a>
+                          </div>
+                          <div
+                            class="small-6 large-7 columns small-text-left medium-text-right thb-experience-description"
+                          >
+                            London, England
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thb-experience">
+                    <div class="row">
+                      <div class="small-12 large-3 columns">
+                        <span class="experience-date">nov 2012 - jan 2013</span>
+                      </div>
+                      <div class="columns">
+                        <div class="row">
+                          <div
+                            class="small-6 large-5 columns thb-experience-position"
+                          >
+                            Backend Developer at
+                            <a href="#">
+                              <strong>Fantasy Interactive</strong>
+                            </a>
+                          </div>
+                          <div
+                            class="small-6 large-7 columns small-text-left medium-text-right thb-experience-description"
+                          >
+                            San Francisco, United States
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thb-experience">
+                    <div class="row">
+                      <div class="small-12 large-3 columns">
+                        <span class="experience-date">may 2011 - nov 2012</span>
+                      </div>
+                      <div class="columns">
+                        <div class="row">
+                          <div
+                            class="small-6 large-5 columns thb-experience-position"
+                          >
+                            Associate Design Director at
+                            <a href="#">
+                              <strong>C-Section</strong>
+                            </a>
+                          </div>
+                          <div
+                            class="small-6 large-7 columns small-text-left medium-text-right thb-experience-description"
+                          >
+                            Istanbul, Turkey
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="clients"
+            data-midnight="dark-title"
+            class="row wpb_row row-fluid vc_custom_1486574526473"
+          >
+            <div class="wpb_column columns medium-3 thb-light-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div class="wpb_text_column wpb_content_element">
+                    <div class="wpb_wrapper">
+                      <p>Clients</p>
+                    </div>
+                  </div>
+                  <div
+                    class="vc_empty_space"
+                    id="thb-empty-space-6454b9eaaa893"
+                    style="height: 30px"
+                  >
+                    <span class="vc_empty_space_inner"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wpb_column columns medium-9 thb-dark-column small-12">
+              <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                  <div
+                    id="thb-client-logos-19"
+                    class="thb-client-row thb-opacity with-accent has-border"
+                  >
+                    <div
+                      class="row no-padding thb-client-carousel style1"
+                      data-columns="small-6 large-3"
+                      data-center="true"
+                      data-navigation="true"
+                      data-autoplay=""
+                      data-autoplay-speed="4000"
+                    >
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_1.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_1.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_1-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_1-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_1-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_1-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_02.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_02.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_02-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_02-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_02-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_02-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_03-1.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_03-1.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_03-1-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_03-1-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_03-1-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_03-1-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_04.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_04.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_04-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_04-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_04-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_04-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_05.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_05.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_05-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_05-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_05-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_05-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_06.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_06.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_06-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_06-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_06-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_06-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_07.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_07.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_07-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_07-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_07-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_07-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="has-link thb-client small-6 large-3 columns"
+                        style="border-color: #262626"
+                      >
+                        <a
+                          href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes"
+                          target="_blank"
+                        >
+                          <img
+                            width="600"
+                            height="600"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            class="attachment-full size-full thb-lazyload lazyload"
+                            alt=""
+                            decoding="async"
+                            loading="lazy"
+                            sizes="(max-width: 600px) 100vw, 600px"
+                            data-src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_08.png"
+                            data-sizes="auto"
+                            data-srcset="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_08.png 600w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_08-150x150.png 150w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_08-300x300.png 300w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_08-320x320.png 320w, https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/uploads/sites/24/2016/09/l_08-20x20.png 20w"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End role["main"] -->
+      <div class="fixed-footer-container">
+        <!-- Start Footer -->
+        <footer id="footer" class="footer subfooter-enabled dark">
+          <div class="row">
+            <div class="small-12 columns">
+              <div id="text-5" class="widget cf widget_text">
+                <div class="textwidget">
+                  <h2 style="text-align: center; margin: 0; line-height: 1.5">
+                    <strong>I’m currently available for freelance!</strong>
+                    <br />
+                    <a href="/contact-us/" title="Contact Me">
+                      <u>Contact Me</u>
+                    </a>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer -->
+        <div id="subfooter" class="subfooter style1 dark">
+          <div class="row">
+            <div class="small-12 columns">
+              <div class="subfooter-container">
+                <div class="row no-padding">
+                  <div class="small-12 medium-6 thb-copyright columns">
+                    <p>
+                      © 2017 Werkstatt - Creative Portfolio Theme. Made by
+                      <strong>
+                        <a href="http://fuelthemes.net" target="_blank"
+                          >Fuelthemes</a
+                        >
+                      </strong>
+                    </p>
+                  </div>
+                  <div class="small-12 medium-6 thb-social columns">
+                    <aside class="socials">
+                      <a
+                        href="http://fuelthemes.net"
+                        class="social facebook"
+                        target="_blank"
+                        rel="noreferrer nofollow"
+                      >
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                      <a
+                        href="http://twitter.com/anteksiler"
+                        class="social twitter"
+                        target="_blank"
+                        rel="noreferrer nofollow"
+                      >
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                      <a
+                        href="https://dribbble.com/aykutyilmaz"
+                        class="social dribbble"
+                        target="_blank"
+                        rel="noreferrer nofollow"
+                      >
+                        <i class="fa fa-dribbble"></i>
+                      </a>
+                      <a
+                        href="https://www.behance.net/aykutyilmaz"
+                        class="social behance"
+                        target="_blank"
+                        rel="noreferrer nofollow"
+                      >
+                        <i class="fa fa-behance"></i>
+                      </a>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End .fixed-footer-container -->
+    </div>
+    <!-- End #wrapper -->
+    <aside class="share_screen" id="right_click_content">
+      <div class="row align-center">
+        <div class="small-12 medium-8 large-6 columns">
+          <h4 class="text-center">
+            You can toggle right click protection within Theme Options and
+            customize this message as well.
+          </h4>
+          <p class="text-center">You can also add shortcodes here.</p>
+        </div>
+      </div>
+    </aside>
+    <aside class="thb-cookie-bar">
+      <div class="thb-cookie-text">
+        <p>
+          Our site uses cookies. Learn more about our use of cookies:
+          <a href="#">cookie policy</a>
+        </p>
+      </div>
+      <a class="button white thb-border-style small">ACCEPT</a>
+    </aside>
+    <script type="text/html" id="wpb-modifications"></script>
+    <aside class="portfolio-hover-content">
+      <div class="container">
+        <div class="thb-replace"></div>
+        <div class="thb-preloader">
+          <svg
+            class="thb-preloader-icon-hexagon"
+            width="51"
+            height="55"
+            viewBox="0 0 34 38"
+          >
+            <path
+              class="preloader-path"
+              stroke="#ef173b"
+              stroke-dasharray="70 32"
+              stroke-width="2"
+              stroke-linejoin="round"
+              stroke-dashoffset="0"
+              d="M29.437 8.114L19.35 2.132c-1.473-.86-3.207-.86-4.68 0L4.153 8.114C2.68 8.974 1.5 10.56 1.5 12.28v11.964c0 1.718 1.22 3.306 2.69 4.165l10.404 5.98c1.47.86 3.362.86 4.834 0l9.97-5.98c1.472-.86 2.102-2.45 2.102-4.168V12.28c0-1.72-.59-3.306-2.063-4.166z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </aside>
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/themes/werkstatt/assets/js/vendor.min.js?ver=4.7.0"
+      id="thb-vendor-js"
+    ></script>
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-includes/js/underscore.min.js?ver=1.13.4"
+      id="underscore-js"
+    ></script>
+    <script type="text/javascript" id="thb-app-js-extra">
+      /* <![CDATA[ */
+      var themeajax = {
+        url: 'https:\/\/werkstatt.fuelthemes.net\/werkstatt-developer\/wp-admin\/admin-ajax.php',
+        l10n: {
+          of: '%curr% of %total%',
+          loading: 'Loading ...',
+          lightbox_loading: 'Loading...',
+          nomore: 'No More Posts',
+          nomore_products: 'All Products Loaded',
+          loadmore: 'Load More',
+          added: 'Added To Cart',
+          added_svg:
+            '<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64"><path fill="none" stroke="#000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="m13 33l12 12 24-24"\/><\/svg>',
+          prev_arrow_key: 'Previous (Left arrow key)',
+          next_arrow_key: 'Next (Right arrow key)',
+          lightbox_close: 'Close (Esc)',
+          adding_to_cart: 'Adding to Cart',
+        },
+        svg: {
+          prev_arrow:
+            '<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" x="0px" y="0px"\r\n\t width="30px" height="18px" viewBox="0 0 30 18" enable-background="new 0 0 30 18" xml:space="preserve">\r\n<path class="handle" d="M2.511,9.007l7.185-7.221c0.407-0.409,0.407-1.071,0-1.48s-1.068-0.409-1.476,0L0.306,8.259\r\n\tc-0.408,0.41-0.408,1.072,0,1.481l7.914,7.952c0.407,0.408,1.068,0.408,1.476,0s0.407-1.07,0-1.479L2.511,9.007z"\/>\r\n<path class="bar" fill-rule="evenodd" clip-rule="evenodd" d="M30,9c0,0.553-0.447,1-1,1H1c-0.551,0-1-0.447-1-1c0-0.552,0.449-1,1-1h28.002\r\n\tC29.554,8,30,8.448,30,9z"\/>\r\n<\/svg>\r\n',
+        },
+        settings: {
+          current_url:
+            'https:\/\/werkstatt.fuelthemes.net\/werkstatt-developer\/',
+          portfolio_title_animation: 'on',
+          page_transition: 'on',
+          page_transition_style: 'thb-fade',
+          page_transition_in_speed: 1000,
+          page_transition_out_speed: 500,
+          shop_product_listing_pagination: 'style1',
+          right_click: 'on',
+          mobile_menu_speed: '0.5',
+        },
+        sounds: {
+          music_sound: 'off',
+          music_sound_toggle_home: 'on',
+          music_sound_file: false,
+          menu_item_hover_sound: 'on',
+          menu_item_hover_sound_file:
+            'https:\/\/werkstatt.fuelthemes.net\/werkstatt-developer\/wp-content\/themes\/werkstatt\/assets\/sounds\/hover.mp3',
+          menu_open_sound: 'on',
+          menu_open_sound_file:
+            'https:\/\/werkstatt.fuelthemes.net\/werkstatt-developer\/wp-content\/themes\/werkstatt\/assets\/sounds\/open.mp3',
+          menu_close_sound: 'on',
+          menu_close_sound_file:
+            'https:\/\/werkstatt.fuelthemes.net\/werkstatt-developer\/wp-content\/themes\/werkstatt\/assets\/sounds\/close.mp3',
+          click_sound: 'on',
+          click_sound_file:
+            'https:\/\/werkstatt.fuelthemes.net\/werkstatt-developer\/wp-content\/themes\/werkstatt\/assets\/sounds\/click.mp3',
+        },
+      };
+      /* ]]> */
+    </script>
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/themes/werkstatt/assets/js/app.min.js?ver=4.7.0"
+      id="thb-app-js"
+    ></script>
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.4.1"
+      id="wpb_composer_front_js-js"
+    ></script>
+    <script
+      src="https://ftwerkstat.wpenginepowered.com/werkstatt-developer/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js?ver=6.4.1"
+      id="vc_jquery_skrollr_js-js"
+    ></script>
+    <aside id="searchpopup" class="light">
+      <a href="#" class="thb-search-close">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          enable-background="new 0 0 64 64"
+        >
+          <g fill="none" stroke="#000" stroke-width="2" stroke-miterlimit="10">
+            <path d="m18.947 17.15l26.1 25.903" />
+            <path d="m19.05 43.15l25.902-26.1" />
+          </g>
+        </svg>
+      </a>
+      <!-- Start SearchForm -->
+      <form
+        method="get"
+        class="searchform"
+        role="search"
+        action="https://werkstatt.fuelthemes.net/werkstatt-developer/"
+      >
+        <fieldset>
+          <input
+            name="s"
+            type="text"
+            class="s small-12"
+            placeholder="Type here to search"
+          />
+          <input type="submit" class="btn accent" value="Search" />
+        </fieldset>
+      </form>
+      <!-- End SearchForm -->
+      <div class="cc"></div>
+    </aside>
+  </body>
+</html>
